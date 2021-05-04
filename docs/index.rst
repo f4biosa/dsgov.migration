@@ -2,4 +2,4 @@
 dsgov.migration
 ===============
 
-User documentation
+A Migrations package to Plone 5
