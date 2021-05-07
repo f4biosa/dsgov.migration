@@ -6,64 +6,30 @@
 dsgov.migration
 ===============
 
-Tell me what your product does
-
-Features
---------
-
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
+Migrates content from SimpleJSON format to Plone 5
 
 Documentation
 -------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+This component is being developed following the guidelines documented in:
+- https://training.plone.org/5/transmogrifier/.
 
 
 Installation
 ------------
 
-Install dsgov.migration by adding it to your buildout::
+This component is still under development,
+for now the installation can be done by cloning this directory
+inside the src folder of your website and configuring the buildout to
+fetch the package from there. Or you can upload your site using the
+buildout available here.
 
-    [buildout]
-
-    ...
-
-    eggs =
-        dsgov.migration
-
-
-and then running ``bin/buildout``
+just run ``bin/buildout´´
 
 
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/dsgov.migration/issues
-- Source Code: https://github.com/collective/dsgov.migration
-- Documentation: https://docs.plone.org/foo/bar
-
-
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+- Issue Tracker: https://github.com/f4biosa/dsgov.migration/issues
 
 
 License
