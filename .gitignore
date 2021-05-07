@@ -3,3 +3,10 @@
 /bin/
 /parts/
 /bin/
+/src/collective.jsonmigrator/
+/src/plone.app.transmogrifier/
+/src/transmogrify.dexterity/
+/src/collective.transmogrifier/
+/var/
+/content-import/
+/.idea/
