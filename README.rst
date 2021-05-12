@@ -52,7 +52,7 @@ Run buildout::
 
     $ buildout
 
-Start Plone in foreground:
+Start Plone in foreground::
 
     $ instance fg
 
