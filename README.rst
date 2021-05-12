@@ -23,7 +23,18 @@ inside the src folder of your website and configuring the buildout to
 fetch the package from there. Or you can upload your site using the
 buildout available here.
 
-just run ``bin/buildout´´
+Insert the following code to your buildout
+
+Run buildout::
+
+   auto-checkout = *
+   [sources]
+   dsgov.migration = git https://gitlab.ifrr.edu.br/2045293/dsgov.migration
+
+
+Run buildout::
+
+    $ buildout
 
 
 Contribute
