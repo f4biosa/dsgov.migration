@@ -14,7 +14,7 @@ This component is being developed following the guidelines documented in:
 - https://training.plone.org/5/transmogrifier/.
 
 
-Installation
+Installation In Production
 ------------
 
 This component is still under development,
@@ -23,19 +23,38 @@ inside the src folder of your website and configuring the buildout to
 fetch the package from there. Or you can upload your site using the
 buildout available here.
 
-Insert the following code to your buildout
-
-Run buildout::
+At the end of the [buildout] session in your buildout.cfg
+Insert the following code like::
+   [buildout]
+   ...
 
    auto-checkout = *
    [sources]
    dsgov.migration = git https://gitlab.ifrr.edu.br/2045293/dsgov.migration
 
+   ...
 
 Run buildout::
 
     $ buildout
 
+
+Installation In Development
+------------
+
+Set up a virtual environment using python 3.8
+
+Then run the command::
+
+    $ pip install -r requirements.txt
+
+Run buildout::
+
+    $ buildout
+
+Start Plone in foreground:
+
+    $ instance fg
 
 Contribute
 ----------
